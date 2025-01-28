@@ -46,6 +46,11 @@ To set up a new virtual environment for Python and install the required librarie
 
    See [requirements](https://github.com/ultralytics/ultralytics/blob/main/pyproject.toml) in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
    
+4. To run,
+   ```cmd
+    python -m algo.simulation.simulator
+    ```
+    
 ### Hyperparameter
 For training purposes, it's recommended to adjust the `fliplr` hyperparameter in the `default.yaml` file located at `.venv/Lib/site-packages/ultralytics/cfg/default.yaml`. Set `fliplr` to `0.0` to disable flipping. This ensures that directional arrows (left & right) are not learned incorrectly.
 

@@ -206,7 +206,7 @@ class Simulator:
 
 if __name__ == "__main__":
     test_maps = get_maps()
-    map = test_maps[7][:8]
+    map = test_maps[1][:8]
     
     hamiltonian_args = {'obstacles': map, 'x_start': 15, 'y_start': 10, 'theta_start': np.pi/2, 
                         'theta_offset': -np.pi/2, 'metric': 'euclidean', 'minR': 26.5}
